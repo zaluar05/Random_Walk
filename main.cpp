@@ -9,7 +9,6 @@ int main(int argc, char **argv){
     int quantidade_agentes;
     le_quantidade_agentes(quantidade_agentes);
     
-    al_install_system(ALLEGRO_VERSION_INT, atexit);
     al_init();
     al_init_primitives_addon();
     

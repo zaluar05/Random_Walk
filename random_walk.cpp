@@ -2,7 +2,11 @@
 
 void le_quantidade_agentes(int &quantidade_agentes){
     std::cout << "Digite a quantidade de agentes: \n";
-    std::cin >> quantidade_agentes;
+    while(!(std::cin >> quantidade_agentes) || quantidade_agentes <= 0){
+        std::cout << "Entrada invalida. Digite um numero inteiro positivo: \n";
+        std::cin.clear();
+        std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+    }
 }
 void Cores_Aleatorias(std::vector<std::vector<int>>& cores, int quantidade_agentes){
     std::random_device rd;
