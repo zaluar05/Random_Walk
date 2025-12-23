@@ -1,0 +1,1 @@
+g++ main.cpp -o random_walk -g random_walk.cpp `pkg-config --cflags --libs allegro-5 allegro_primitives-5` && ./random_walk

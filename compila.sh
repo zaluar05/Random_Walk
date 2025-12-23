@@ -1,1 +1,0 @@
-g++ main.cpp -o m `pkg-config --cflags --libs allegro-5 allegro_primitives-5`
