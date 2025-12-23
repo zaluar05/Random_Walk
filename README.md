@@ -2,7 +2,7 @@
 
 Simulação visual de Random Walk usando C++ e Allegro5.
 
-![Demo](./assets/random.gif)
+![Demo](./assets/random_walk1.png)
 
 Múltiplos agentes começam no centro da tela e se movem aleatoriamente em 4 direções, deixando um rastro colorido de suas trajetórias. Cada agente tem uma cor RGB aleatória.
 
@@ -29,5 +29,4 @@ Digite a quantidade de agentes e pronto.
 
 ## Resultado
 
-![Resultado](./assets/random_walk1.png)
-![Visualização](./assets/random_walk2.png)
+![Resultado](./assets/random_walk2.png)
